@@ -1,10 +1,3 @@
-//
-//  GameScene.swift
-//  MAPD724-W2023-ICE1-ManmeenKaur
-//
-//  Created by Manmeen Kaur on 2023-01-22.
-//
-
 import SpriteKit
 import GameplayKit
 
@@ -35,7 +28,7 @@ class GameScene: SKScene
 
         // add the second ocean to the scene
         ocean2 = Ocean()
-        ocean2?.position.y = -773
+        ocean2?.position.y = -627
         addChild(ocean2!)
         
         // add the player to the Scene
@@ -46,18 +39,18 @@ class GameScene: SKScene
     
     func touchDown(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
     }
     
     func touchMoved(toPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
         
     }
     
     func touchUp(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
         
     }
     

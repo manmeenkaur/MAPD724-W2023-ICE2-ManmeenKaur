@@ -1,10 +1,3 @@
-//
-//  GameViewController.swift
-//  MAPD724-W2023-ICE1-ManmeenKaur
-//
-//  Created by Manmeen Kaur on 2023-01-22.
-//
-
 import UIKit
 import SpriteKit
 import GameplayKit
